@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #2C3E50 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 0.5rem 1rem; 
+    min-height: 60px; 
+}
+
+.navbar-nav{
+    margin-right: 0 !important;
+}
+
+body {
+    margin-top: 60px;
+}
+
+.nav-button {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+
+.nav-button:hover:not(.active-button) {
+    background-color: #1ABC9C;
+}
+
+.active-button {
+    background-color: #1ABC9C;
+    color: white !important;
+    border-radius: 6px;
+}

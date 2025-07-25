@@ -1,0 +1,80 @@
+.contact {
+    background-color: white;
+    min-height: 100vh;
+    padding: 80px 0;
+    padding-top: 80px !important;
+}
+
+.contact h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2C3E50;
+}
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.star-divider .line {
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: 2px;
+}
+
+.star-divider i {
+    font-size: 1.5rem;
+    color: #2C3E50;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 1rem;
+    background: transparent;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #1ABC9C;
+    background: transparent;
+}
+
+.form-control.is-invalid {
+    border-bottom-color: #dc3545;
+}
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.btn-success {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+.btn-success:disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: not-allowed;
+}

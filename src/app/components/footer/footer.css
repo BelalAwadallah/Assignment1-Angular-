@@ -1,0 +1,19 @@
+.btn-social {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+}
+
+.btn-social:hover {
+  background-color: white;
+  color: #343a40;
+}
+
+.footer{
+  background-color: #2C3E50 !important;
+
+}

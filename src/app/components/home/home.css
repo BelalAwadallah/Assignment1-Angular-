@@ -1,0 +1,37 @@
+.home {
+    background-color: #1ABC9C !important;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    color: white;
+    padding-top: 80px !important;
+}
+
+.home-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.star-divider .line {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.star-divider i {
+    font-size: 1.5rem;
+    color: white;
+}
